@@ -59,9 +59,10 @@ class PageTheme extends Theme
     public function getThemeResponsiveImageMap()
     {
         return array(
-            'lg' => '1600px',
-            'md' => '1200px',
-            'sm' => '768px',
+            'xl' => '1200px',
+            'lg' => '992px',
+            'md' => '768px',
+            'sm' => '544px',
             'xs' => '0',
         );
     }
